@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style-about.css" />
+    <link rel="stylesheet" href="style-about.css" />
+  </head>
+  <body>
+    <div class="about-page">
+      <div class="group">
+        <div id="nav-holder" > </div>
+      </div>
+      <div class="header-section">
+        <div class="header-content">
+          <div class="title-subtitle">
+            <div class="visual-designer">About Me</div>
+            <p class="this-is-a-template">
+              My name is Aubrie Stromberg and I&#39;m a Senior at Texas A&amp;M University where I&#39;m studying
+              Visualization, specializing in Interactive Media and Graphic Design.<br /><br />Creating has always been a
+              passion of mine. I love expressing myself through art, photography, and design. People and music are my
+              biggest inspirations because they offer a whole new view of the world, their uniqueness is something I try
+              to capture through abstraction and color. I hope my art would inspire people to seek beauty and joy in
+              their surroundings.
+            </p>
+          </div>
+        </div>
+        <img class="headerimage" src="img/IMG_9568 (1).JPG" />
+      </div>
+      <div class="skills-section">
+        <div class="cards-section">
+          <div class="skills-card">
+            <!-- <img class="skills-card-icon" src="img/image.svg" /> -->
+            <div class="div">
+              <div class="title">Branding</div>
+              <p class="p">
+                A brand is more than a logo. It is the story of your business and mission. Let me help you tell your
+                story!
+              </p>
+            </div>
+          </div>
+          <div class="skills-card">
+            <!-- <img class="img" src="img/skills-card-icon.svg" /> -->
+            <div class="div">
+              <div class="title">Print</div>
+              <p class="p">
+                There is nothing quite like the joy of seeing a digital design come to life. Let’s bring your ideas to
+                life!
+              </p>
+            </div>
+          </div>
+          <div class="skills-card">
+            <!-- <img class="skills-card-icon-2" src="img/skills-card-icon-2.svg" /> -->
+            <div class="div">
+              <div class="title">Web Design</div>
+              <p class="p">A website builds community and attracts costumers. Let’s optimize your business!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-section">
+        <div class="text-wrapper-2">Lets work together</div>
+        <div class="contact-section-2">
+          <div class="contact-info">
+            <div class="div-wrapper">
+              <p class="p">
+                This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com This is a
+                template Figma file, turned into code using Anima. Learn more at AnimaApp.com
+              </p>
+            </div>
+            <div class="social-links">
+              <a href="https://www.facebook.com/animaapp/" target="_blank" rel="noopener noreferrer"
+                ><img class="img" src="img/facebook-1.png"
+              /></a>
+              <a href="https://dribbble.com/animaapp" target="_blank" rel="noopener noreferrer"
+                ><img class="img" src="img/dribbble-1.png"
+              /></a>
+              <a href="https://www.instagram.com/animaapp/?hl=en" target="_blank" rel="noopener noreferrer"
+                ><img class="img" src="img/nstagram.png"
+              /></a>
+              <a href="https://www.behance.net/Anima_design" target="_blank" rel="noopener noreferrer"
+                ><img class="img" src="img/behance-1.png"
+              /></a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <div class="input-fields"><input class="input-field" /> <input class="input-field" /></div>
+            <button class="button"><div class="contact">Submit</div></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+$.get("navigation.html", function(data){
+$("#nav-holder").replaceWith(data);
+});
+$.get("footer.html", function(data){
+$("#footer-holder").replaceWith(data);
+});
+</script>  
